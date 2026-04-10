@@ -10,3 +10,4 @@ public class CountDigits {
         System.out.println("Digits: " + count);
     }
 }
+ 
