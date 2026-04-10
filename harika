@@ -1,6 +1,13 @@
-hello madam 
-em chesthunaru 
-job emina ochinda  
-madam kanisama msg ledu oka phn ledu 
-anth durgam ayeipoyama ah 
+public class CountDigits {
+    public static void main(String[] args) {
+        int num = 12345, count = 0;
 
+        while (num != 0) {
+            num /= 10;
+            count++;
+        }
+
+        System.out.println("Digits: " + count);
+    }
+}
+ 
